@@ -1,0 +1,10 @@
+streamlit>=1.38,<2
+pypdf>=5.0,<7
+langchain-text-splitters>=0.3,<2
+sentence-transformers>=3.0,<6
+faiss-cpu>=1.8,<2
+groq>=0.11,<1
+python-dotenv>=1.0,<2
+numpy>=1.26,<3
+reportlab>=4.0,<5
+pytest>=8.0,<9

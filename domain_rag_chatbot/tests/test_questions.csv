@@ -1,0 +1,16 @@
+Question,Expected Source,Expected Result,Category
+What is the standard leave entitlement?,company_policy.pdf,Answer from policy section on leave,Correct
+How should an employee request leave?,company_policy.pdf,Answer from policy section on leave request,Correct
+How is attendance recorded?,employee_handbook.pdf,Answer from attendance section,Correct
+What is the standard workday start time?,employee_handbook.pdf,Answer from working hours section,Correct
+What should employees do if they are late?,employee_handbook.pdf,Answer from attendance section,Correct
+How should workplace incidents be reported?,company_policy.pdf,Answer from safety section,Correct
+Who approves departmental leave?,company_policy.pdf,Answer from approval section,Correct
+What is the document retention period?,company_policy.pdf,Answer from records section,Correct
+What should visitors do at reception?,employee_handbook.pdf,Answer from visitor section,Correct
+What is the remote-work request process?,company_policy.pdf,Answer from remote work section,Correct
+What is the dress requirement?,employee_handbook.pdf,Answer from workplace conduct section,Correct
+How are company assets handled?,company_policy.pdf,Answer from asset section,Correct
+What is the policy for confidential information?,company_policy.pdf,Answer from confidentiality section,Correct
+What is the cafeteria opening time?,employee_handbook.pdf,Answer from facilities section,Correct
+Who is the current company CEO?,Not available,Refusal fallback,Unavailable

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430">
+<style>
+.box{fill:#f6f8fa;stroke:#24292f;stroke-width:2;rx:14}
+.t{font-family:Arial,sans-serif;font-size:20px;fill:#24292f}
+.s{font-family:Arial,sans-serif;font-size:15px;fill:#57606a}
+.a{stroke:#24292f;stroke-width:3;marker-end:url(#arrow)}
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#24292f"/></marker></defs>
+<text x="700" y="35" text-anchor="middle" class="t" font-size="26">Domain-Specific RAG Chatbot Architecture</text>
+<rect x="30" y="90" width="170" height="100" class="box"/><text x="115" y="130" text-anchor="middle" class="t">PDF Upload</text><text x="115" y="158" text-anchor="middle" class="s">1+ documents</text>
+<rect x="250" y="90" width="170" height="100" class="box"/><text x="335" y="130" text-anchor="middle" class="t">Extraction</text><text x="335" y="158" text-anchor="middle" class="s">pypdf + pages</text>
+<rect x="470" y="90" width="170" height="100" class="box"/><text x="555" y="130" text-anchor="middle" class="t">Chunking</text><text x="555" y="158" text-anchor="middle" class="s">overlap</text>
+<rect x="690" y="90" width="170" height="100" class="box"/><text x="775" y="130" text-anchor="middle" class="t">Embeddings</text><text x="775" y="158" text-anchor="middle" class="s">MiniLM</text>
+<rect x="910" y="90" width="170" height="100" class="box"/><text x="995" y="130" text-anchor="middle" class="t">FAISS</text><text x="995" y="158" text-anchor="middle" class="s">vector search</text>
+<rect x="1130" y="90" width="220" height="100" class="box"/><text x="1240" y="130" text-anchor="middle" class="t">Streamlit UI</text><text x="1240" y="158" text-anchor="middle" class="s">upload + chat</text>
+<line x1="200" y1="140" x2="250" y2="140" class="a"/><line x1="420" y1="140" x2="470" y2="140" class="a"/><line x1="640" y1="140" x2="690" y2="140" class="a"/><line x1="860" y1="140" x2="910" y2="140" class="a"/><line x1="1080" y1="140" x2="1130" y2="140" class="a"/>
+<rect x="250" y="270" width="170" height="100" class="box"/><text x="335" y="310" text-anchor="middle" class="t">Question</text><text x="335" y="338" text-anchor="middle" class="s">user query</text>
+<rect x="470" y="270" width="170" height="100" class="box"/><text x="555" y="310" text-anchor="middle" class="t">Retrieval</text><text x="555" y="338" text-anchor="middle" class="s">top 5 chunks</text>
+<rect x="690" y="270" width="170" height="100" class="box"/><text x="775" y="310" text-anchor="middle" class="t">Grounded Prompt</text><text x="775" y="338" text-anchor="middle" class="s">context + question</text>
+<rect x="910" y="270" width="170" height="100" class="box"/><text x="995" y="310" text-anchor="middle" class="t">Groq LLM</text><text x="995" y="338" text-anchor="middle" class="s">temperature 0</text>
+<rect x="1130" y="270" width="220" height="100" class="box"/><text x="1240" y="310" text-anchor="middle" class="t">Answer + Sources</text><text x="1240" y="338" text-anchor="middle" class="s">document + page</text>
+<line x1="420" y1="320" x2="470" y2="320" class="a"/><line x1="640" y1="320" x2="690" y2="320" class="a"/><line x1="860" y1="320" x2="910" y2="320" class="a"/><line x1="1080" y1="320" x2="1130" y2="320" class="a"/>
+<path d="M335 270 L335 190" class="a"/><path d="M995 190 L995 270" class="a"/>
+</svg>
